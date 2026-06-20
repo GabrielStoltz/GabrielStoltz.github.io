@@ -1,0 +1,390 @@
+<!-- PLF - http://www.jejavascript.net/ -->
+<!-- voir page web: http://www.jejavascript.net/mailto.php -->
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+   <title>hybrid workshop (Paris, september 2010)</title>
+</head>
+<!-- FOND -->
+<body text="#000000" BGCOLOR=white BACKGROUND="cu.png" link="#FF0000" vlink="#800080" alink="#0000FF" >
+
+<!-------------- TITRE ------------------------->
+<center>
+<strong><a href="http://www.inria.fr/actualites/colloques/cea-edf-inria/">Ecole CEA-EDF-INRIA</a> 
+</strong>
+<br>
+<br>
+<br>
+<font color="#000000" size="3"><b>Simulation of hybrid dynamical systems and applications to molecular dynamics</b></font>
+<br>
+<br>
+<br>
+<font color="#000000" size="3"><b>Institut Henri Poincaré, Paris, September 27-30th 2010</b></font>
+<br>
+<br>
+<br>
+<font color="#000000" size="7"><b>Proposed talks and lectures</b></font>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--                          -->
+<!-- Name of the participants -->
+<!--                          -->
+<center>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="bou_rabee">Nawaf Bou-Rabee</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+A patch to make explicit integrators for SDEs unconditionally stable
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+This talk presents a simple, goofproof way to compute the long time dynamics of stochastic differential equations (SDE) arising in constant temperature molecular dynamics.  Loosely speaking, the idea is to add Metropolis accept or reject steps to an explicit integrator for the SDE.  The resulting Metropolized integrator is still explicit, but no longer requires a time-step restriction for stability.  It also approximates pathwise the SDE's solution on finite time intervals.  As a corollary the algorithm can estimate finite-time dynamical properties along an infinitely long trajectory of the SDE.  The talk focusses on what the patch involves (even in the presence of multiple-time-stepsizes and holonomic constraints), how the method scales with system size, and how much overhead it requires.  Applications include simulation of long-time dynamics of a cluster of Lennard-Jones particles and rigid `dumbbells.'  
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="brehier">Charles-Edouard Bréhier</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Strong and weak order in averaging for SPDEs
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+We show an averaging principle for systems of stochastic evolution equations of parabolic type,
+where the fast equation satisfies some strict dissipativity assumption; the noise is additive in the
+fast equation, and in the slow one we only consider a case without noise. For numerical reasons,
+the order of convergence is crucial; we study both classical criterions associated with convergence
+of stochastic processes. The strong order (approximation of trajectories) is proved to be lower than
+the weak order (approximation of laws), as in the finite dimensional case. These results can be
+applied to the study of numerical schemes based on the Heterogeneous Multiscale Method.
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="cerou">Frédéric Cerou</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Importance splitting for rare event smulation
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+In recent years, the simulation of rare events (with probability lower
+than say 10^-8) has attracted much attention in the applied
+probability community. The two main families of methods are importance
+sampling and importance splitting.  Rare event simulation is of great
+interest in computational physics because it can be used to force some
+kind of event to appear, and therefore speed-up the time in the simulation.
+This talk will present recent algorithms and theoretical results in
+this area concerning splitting methods. We will also try to link these
+methods to specific algorithms proposed within the computational
+physics community. Some preliminary but relevant numerical results
+based on a new splitting algorithm will also be presented.
+Various parts of this talk are joint work with P. Del Moral,
+A. Guyader, F. Le Gland, T. Lelièvre, D. Pommier.
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="chartier">Philippe Chartier</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Higher-order averaging, formal series and numerical integration
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+We show how B-series may be used to derive in a systematic way the analytical
+expressions of the high-order  equations that approximate the slow dynamics of
+multi-frequency highly oscillatory systems. We then suggest a method for the integration of  systems with a single high frequency.  The technique may be easily implemented in combination with standard software and may be applied with variable step sizes. Numerical experiments show that the suggested
+algorithms may be substantially more efficient than standard numerical integrators.
+This work is in collaboration with Maripaz Calvo, Ander Murua and Chus Sanz-Serna.
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="minoukadeh">Kimiya Minoukadeh</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Long-time convergence of an Adaptive Biasing Force method: the bi-channel case
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+New convergence results are presented for an adaptive algorithm to compute free energies, namely the adaptive biasing force (ABF) method. The free energy is the effective potential associated to a so-called reaction coordinate (RC). Computing free energy differences remains an important challenge in molecular dynamics due to the presence of meta-stable regions in the potential energy surface. The ABF method uses an on-the-fly estimate of the free energy to bias dynamics and overcome metastability. Using entropy arguments and logarithmic Sobolev inequalities, previous results have shown that the rate of convergence of the ABF method is limited by the metastable features of the canonical measures conditioned to being at fixed values of the RC. This work proposes an improvement on the existing results, in the presence of such metastabilities, which is a generic case encountered in practice.  More precisely, a so-called bi-channel case is studied, where two channels along the RC direction exist between an initial and final state, the channels being separated from each other by a region of low probability. With hypotheses made on `channel-dependent' conditional measures, it is shown on a newly introduced bi-channel model, that the convergence of the ABF method is in fact not limited by metastabilities in directions orthogonal to the RC under two crucial assumptions: (i) exchange between the two channels is possible for some values of the RC and (ii) the free energy is a good bias in each channel. 
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="ohwadi">Houman Owhadi</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Homogenization in space and time of (possibly stochastic) mechanical
+systems with applications to molecular dynamics
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+We describe low-cost, rigorous and structure-preserving methods for the
+simulation of (possibly stochastic) mechanical systems characterized by
+multiple time scales and/or a large number of degrees of freedom with
+applications to molecular dynamics. Problems that we address include
+non-quadratic (possibly high-dimensional) stiff potentials, hidden slow
+variables, non-intrusive and structure-preserving acceleration of legacy
+codes, explicit error estimates and constrained dynamics. We also show how
+an understanding of the homogenization of elasto-dynamics equations with
+non-separated scales leads to a simple energy matching principle for the
+accurate coarse-graining of supramolecular aggregates (and other
+high-dimensional non-crystalline structures). Various parts of this talk are
+joint work with M. Tao, J. Marsden, L. Zhang, L. Berlyand, M. Federov, M.
+Desbrun, L. Kharevych and P. Mullen.
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="pavliotis">Greg Pavliotis</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Asymptotic analysis for the Generalized Langevin equation
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+In this talk we will present some recent results on the long time
+asymptotics of the generalized Langevin equation (gLE). In particular,
+we will discuss about the ergodic properties of the gLE and present  
+estimates on the rate of convergence to equilibrium, we will present
+a homogenization result (invariance principle) and we will discuss
+about the convergence of the gLE dynamics to the (Markovian) Langevin
+dynamics, in some appropriate asymptotic limit. The analysis is based  
+on the approximation of the gLE  by a
+high (and possibly infinite) dimensional degenerate Markovian system,
+and on the analysis of the spectrum of the generator of this Markov
+process. This is joint work with M. Ottobre and K. Pravda-Starov.
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="pillet">Claude-Alain Pillet</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Entropy production and fluctuations in (classical) dynamical systems
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+I will present a general abstract approach to entropy
+production in classical dynamical systems which has a natural extension
+to quantum dynamical systems. I will discuss Evans-Searles and
+Gallavotti-Cohen Fluctuation Theorems and their relations within
+this framework. Examples to which this applies include thermostatted
+systems, open Hamiltonian systems, chaotic homeomorphisms of compact
+metric spaces and Anosov diffeomorphisms and I will present some
+of these applications. This is joint work with V. Jaksic and L. Rey-Bellet.
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="samaey">Giovanni Samaey</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Individual-based models for bacterial chemotaxis and variance reduced simulations
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+Velocity-jump models for the individual-based simulation of chemotaxis of bacteria with internal dynamics are discussed. We analyze a fine-scale process with internal dynamics, and a simpler process associated with a kinetic description. We first show that, in a diffusive asymptotics, both processes converge towards the same advection-diffusion process. Subsequently, we couple the jump times of both processes and analyze the variance of the difference between the two solutions. We show that this coupling yields an ``asymptotic'' variance reduction (control variate), in the sense that, in the diffusive asymptotics, the difference between the two processes has a variance which vanishes with the small parameter. Finally, this coupling is used to construct a ``hybrid'' scheme with reduced variance, by first computing a deterministic solution of the kinetic density description, and then simulating the coupled processes to evaluate the difference with the exact solution with internal dynamics.
+The presentation will discuss work that is joint with Mathias Rousset (INRIA - Lille).
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="stuart">Andrew Stuart</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+The Hybrid Monte Carlo Algorithm in High Dimensions
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+I will overview recent work concerning the
+design and analysis of Hybrid Monte Carlo
+(HMC) methods for the sampling of high or infinite
+dimensional probability measures. In
+particular I will show 
+<br>
+(i) how the standard
+HMC method should be scaled for a wide
+class of high dimensional problems; and
+<br>
+(ii) how to circumvent these scaling issues
+for problems where the target measure has
+a density with respect to a Gaussian measure.
+<br><br>
+The work is in collaboration with
+Alex Beskos, Natesh Pillai, Frank Pinski,
+Gareth Roberts and Chus Sanz-Serna.
+See the related papers "Optimal tuning of the Hybrid Monte-Carlo Algorithm"
+(<a href="http://arxiv.org/abs/1001.4460">arXiv link</a>) and
+"Hybrid Monte-Carlo on Hilbert Spaces"
+(<a href="http://www.warwick.ac.uk/~masdr/HilbertHMC.pdf">pdf</a>).
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="szepessy">Anders Szepessy</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+How accurate is molecular dynamics?
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+In the first lecture I will show that Ehrenfest and Born-Oppenheimer  molecular dynamics
+accurately approximate observables based on the time-independent Schrödinger equation,
+in the limit of large ratio of nuclei and electron masses.
+The derivation, based on a Hamiltonian system interpretation of the
+time-independent Schrödinger equation and stability of the  
+corresponding Hamilton-Jacobi equation, bypasses the usual separation
+of nuclei and electron wave functions, includes caustic states and  crossing electron eigenvalues,
+and gives a different perspective on Hamiltonian systems and numerical  
+simulation in constant energy molecular dynamics modeling.
+<br>
+<br>
+In the second lecture I relate the Ehrenfest model to Zwanzig's heat  bath model
+and show how stochastic Langevin molecular dynamics for the nuclei can  be derived from
+Ehrenfest dynamics with stochastic electron initial data at low  temperature.
+The initial electron probability distribution is a Gibbs density,  derived
+by a stability and consistency argument.
+</td></tr>
+</tbody></table><br><br>
+
+<!------------------- NEXT ----------------------------->
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="2" width="100%">
+<tbody>
+<tr><td width="20%" style="text-align: left;"><font color="#0000ff"> 
+<!-- name -->
+<a name="talay">Denis Talay</a>
+</font></td><td width="80%" style="text-align: left;"> 
+<!-- Title --><b>
+Approximation of invariant measures of some Hamiltonian stochastic differential equations
+</b></td></tr>
+</tbody>
+</table><br>
+<table nosave="" border="0" cellpadding="2" cellspacing="2" cols="1" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><font color="#0000ff">
+</font></td><td style="text-align: left;"> 
+<!-- Abstract -->
+In this lecture we will discuss the convergence rate at which the probability distributions
+of certain diffusion processes tend to invariant probability measures,
+and we will apply these estimates to describe the accuracy of stochastic numerical methods
+designed to approximate these invariant measures.
+We will also list and comment numerous open problems.
+Finally, we will 
+present theoretical and numerical stochastic approaches for the Poisson-Boltzmann equation
+in Molecular Dynamics.
+</td></tr>
+</tbody></table><br><br>
+
+</center>
+
+</center>
+
+

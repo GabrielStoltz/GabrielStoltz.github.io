@@ -1,0 +1,514 @@
+<!-- PLF - http://www.jejavascript.net/ -->
+<!-- voir page web: http://www.jejavascript.net/mailto.php -->
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+   <title>hybrid workshop (Paris, september 2010)</title>
+</head>
+<!-- FOND -->
+<body text="#000000" BGCOLOR=white BACKGROUND="cu.png" link="#FF0000" vlink="#800080" alink="#0000FF" >
+
+<!-------------- TITRE ------------------------->
+<center>
+<strong><a href="http://www.inria.fr/actualites/colloques/cea-edf-inria/">Ecole CEA-EDF-INRIA</a> 
+</strong>
+<br>
+<br>
+<br>
+<font color="#000000" size="7"><b>Simulation of hybrid dynamical systems and applications to molecular dynamics</b></font>
+<br>
+<br>
+<br>
+<font color="#000000" size="5"><b>Institut Henri Poincaré, Paris, September 27-30th 2010</b></font>
+</center>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<center>
+<font color="#000000" size="5">
+See below for the <a href="#program">program</a>.
+</font>
+</center>
+<br>
+<br>
+<br>
+<br>
+<center>
+<font color="#000000" size="3">
+Back to the <a href="http://www.inria.fr/actualites/colloques/cea-edf-inria/2010/molecular-dynamics/index.en.html">official webpage</a>.
+</font>
+</center>
+<br>
+<br>
+<br>
+<br>
+
+<!-------------- ACCROCHE ------------------------->
+<span style="text-decoration: underline;">
+Aims and scope:</span>
+<br>
+<br>
+
+The aim of this workshop is to gather scientists and students interested in molecular simulation and hybrid numerical methods. We define hybrid methods as the ones mixing deterministic techniques (Hamiltonian systems, highly oscillatory dynamics, partial differential equations) and stochastic approaches (stochastic differential equations, stochastic PDEs, Markov chains, etc). It is believed that deterministic methods are the most efficient ones when they can be used (which is of course not always the case), but stochastic methods are sometimes unavoidable - for instance as soon as there are intrinsic uncertainties in the modelling (random forcing terms, unknown initial conditions, etc).
+<br>
+<br>
+Algorithms mixing deterministic and stochastic techniques have already been proposed (for instance, the Hybrid Monte-Carlo method for sampling the canonical measure), but certainly many more will be proposed. Moreover, the numerical analysis of these schemes is not complete at the moment, and we believe that an interdisciplinary approach is required to this end. Five international experts will deliver the main lectures (3h each). Several research lectures will complement these lectures. This workshop is intended both for applied mathematicians and for scientists from the applied communities (chemistry, physics, biology, etc).
+
+<br>
+<br>
+
+Keywords: Molecular dynamics, numerical schemes, Hamiltonian systems, Stochastic differential equations, Highly oscillating systems, Stochastic partial differential equations
+
+<br>
+<br>
+<br>
+
+<!-------------- INVITES ------------------------->
+<span style="text-decoration: underline;">
+Invited lecturers:</span>
+<ul>
+<li><a href="http://www.acm.caltech.edu/~owhadi/">
+Houman Owhadi</a> (California Institute of technology - USA)</li>
+<li><a href="http://math.univ-tln.fr/~pillet/index.html">
+Claude-Alain Pillet</a> (Université de Toulon - France)</li>
+<li><a href="http://www.warwick.ac.uk/~masdr/">
+Andrew Stuart</a> (Warwick University - UK)</li>
+<li><a href="http://www.nada.kth.se/~szepessy/">
+Anders Szepessy</a> (KTH Stockholm - Sweden)</li>
+<li><a href="http://www-sop.inria.fr/members/Denis.Talay/moi.html">
+Denis Talay</a> (INRIA Sophia-Antipolis)</li>
+</ul>
+<br>
+
+
+
+<!-------------- PROGRAM ------------------------->
+<span style="text-decoration: underline;">
+Program:</span> 
+<a name="program"></a>
+<br><br>
+The main lectures are a 3h long review on a given topic. They are complemented by 
+several research lectures (45 minutes each).
+
+<br><br><br><br>
+
+<!------------------------------------------------>
+<!-------------- Monday ------------------------->
+<!----------------------------------------------->
+<p><b><font size="+2">Monday, september 27th</font></b></p>
+<p><br>
+<table border="0" cellpadding="10" width="100%">
+<tbody>
+<!------- M1 --------->
+<tr><td><b><font size="+1">
+10:00-11:00
+</font></b></td><td><font style="vertical-align: top;">
+Welcome and coffee
+</font>
+</td></tr>
+<!------- A3 --------->
+<tr><td><b><font size="+1">
+11:00-12:30
+</font></b></td><td><font size="+1">
+Anders Szepessy
+</font><br>
+<font style="italic"><i> 
+How accurate is molecular dynamics?
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#szepessy">Abstract</a>,
+<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/Presentations/Szepessy1.pdf">Presentation</a>) 
+</i></font> 
+</td>
+</tr>
+<!------- Lunch --------->
+<tr><td><b><font size="+1">
+12:30-14:00
+</font></b></td>
+<td style="vertical-align: top;">
+Lunch
+<br></td></tr>
+<!------- A1 --------->
+<tr><td><b><font size="+1">
+14:00-15:30
+</font></b></td><td><font size="+1">
+Houman Owhadi 
+</font>
+<br>
+<font style="italic"><i> 
+Homogenization in space and time of (possibly stochastic) mechanical
+systems with applications to molecular dynamics
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#owhadi">Abstract</a>) 
+</i></font> 
+</td>
+</tr>
+<!------- Coffee --------->
+<tr><td><b><font size="+1">
+15:30-16:00
+</font></b></td>
+<td style="vertical-align: top;">
+Coffee break
+<br></td></tr>
+<!------- A3 --------->
+<tr><td><b><font size="+1">
+16:00-16:45
+</font></b></td><td><font size="+1">
+Nawaf Bou-Rabee
+</font><br>
+<font style="italic"><i> 
+A patch to make explicit integrators for SDEs unconditionally stable
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#bou_rabee">Abstract</a>) 
+</i></font> 
+</td>
+</tr>
+<!------- T3 --------->
+<tr><td><b><font size="+1">
+16:45-17:30
+</font></b></td><td><font size="+1">
+Greg Pavliotis
+</font><br>
+<font style="italic"><i> 
+Asymptotic analysis for the Generalized Langevin equation
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#pavliotis">Abstract</a>,
+<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/Presentations/Pavliotis.pdf">Presentation</a>) 
+</i></font> 
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<br><br>
+
+<!------------------------------------------------>
+<!-------------- Tuesday ------------------------->
+<!----------------------------------------------->
+<p><b><font size="+2">Tuesday, september 28th</font></b></p>
+<p><br>
+<table border="0" cellpadding="10" width="100%">
+<tbody>
+<!------- M1 --------->
+<tr><td><b><font size="+1">
+09:00-10:30
+</font></b></td><td><font size="+1">
+Houman Owhadi 
+</font>
+<br>
+<font style="italic"><i> 
+Homogenization in space and time of (possibly stochastic) mechanical
+systems with applications to molecular dynamics
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#owhadi">Abstract</a>) 
+</i></font> 
+</td></tr>
+<!------- M1 --------->
+<tr><td><b><font size="+1">
+10:30-11:00
+</font></b></td><td><font style="vertical-align: top;">
+Coffee break 
+</font>
+</td></tr>
+<!------- A3 --------->
+<tr><td><b><font size="+1">
+11:00-12:30
+</font></b></td><td><font size="+1">
+Anders Szepessy
+</font><br>
+<font style="italic"><i> 
+How accurate is molecular dynamics?
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#szepessy">Abstract</a>,
+<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/Presentations/Szepessy2.pdf">Presentation</a>) 
+</i></font> 
+</td>
+</tr>
+<!------- Lunch --------->
+<tr><td><b><font size="+1">
+12:30-14:00
+</font></b></td>
+<td style="vertical-align: top;">
+Lunch
+<br></td></tr>
+<!------- A1 --------->
+<tr><td><b><font size="+1">
+14:00-15:30
+</font></b></td><td><font size="+1">
+Denis Talay
+</font><br>
+<font style="italic"><i> 
+Approximation of invariant measures of some Hamiltonian stochastic differential equations
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#talay">Abstract</a>) 
+</i></font> 
+</td>
+</tr>
+<!------- Coffee --------->
+<tr><td><b><font size="+1">
+15:30-16:00
+</font></b></td>
+<td style="vertical-align: top;">
+Coffee break
+<br></td></tr>
+<!------- A3 --------->
+<tr><td><b><font size="+1">
+16:00-16:45
+</font></b></td><td><font size="+1">
+Frédéric Cérou
+</font><br>
+<font style="italic"><i> 
+Importance splitting for rare event smulation
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#cerou">Abstract</a>,
+<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/Presentations/Cerou.pdf">Presentation</a>) 
+</i></font> 
+</td>
+</tr>
+<!------- T3 --------->
+<tr><td><b><font size="+1">
+16:45-17:30
+</font></b></td><td><font size="+1">
+Philippe Chartier
+</font><br>
+<font style="italic"><i> 
+Higher-order averaging, formal series and numerical integration
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#chartier">Abstract</a>) 
+</i></font> 
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<br><br>
+
+<!------------------------------------------------>
+<!-------------- Wednesday ------------------------->
+<!----------------------------------------------->
+<p><b><font size="+2">Wednesday, september 29th</font></b></p>
+<p><br>
+<table border="0" cellpadding="10" width="90%">
+<tbody>
+<!------- M1 --------->
+<tr><td><b><font size="+1">
+09:00-10:30
+</font></b></td><td><font size="+1">
+Claude-Alain Pillet
+</font><br>
+<font style="italic"><i>
+Entropy production and fluctuations in (classical) dynamical systems
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#pillet">Abstract</a>,
+<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/Presentations/Pillet.pdf">Presentation</a>)
+<br>
+</td></tr>
+<!------- M1 --------->
+<tr><td><b><font size="+1">
+10:30-11:00
+</font></b></td><td><font style="vertical-align: top;">
+Coffee break 
+</font>
+</td></tr>
+<!------- A3 --------->
+<tr><td><b><font size="+1">
+11:00-12:30
+</font></b></td><td><font size="+1">
+Denis Talay
+</font><br>
+<font style="italic"><i> 
+Approximation of invariant measures of some Hamiltonian stochastic differential equations
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#talay">Abstract</a>) 
+</i></font> 
+</td>
+</tr>
+<!------- Lunch --------->
+<tr><td><b><font size="+1">
+12:30-14:00
+</font></b></td>
+<td style="vertical-align: top;">
+Lunch
+<br></td></tr>
+<!------- A1 --------->
+<tr><td><b><font size="+1">
+14:00-15:30
+</font></b></td><td><font size="+1">
+Andrew Stuart
+</font><br>
+<font style="italic"><i>
+The Hybrid Monte Carlo Algorithm in High Dimensions</i></font> 
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#stuart">Abstract</a>)
+<br>
+</td>
+</tr>
+<!------- Coffee --------->
+<tr><td><b><font size="+1">
+15:30-16:00
+</font></b></td>
+<td><font style="vertical-align: top;">
+Coffee break
+</font><br></td></tr>
+<!------- A3 --------->
+<tr><td><b><font size="+1">
+16:00-16:45
+</font></b></td><td><font size="+1">
+Charles-Edouard Bréhier
+</font><br>
+<font style="italic"><i>
+Strong and weak order in averaging for SPDEs
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#brehier">Abstract</a>,
+<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/Presentations/Brehier.pdf">Presentation</a>)
+</td>
+</tr>
+<!------- T3 --------->
+<tr><td><b><font size="+1">
+<br>19:30
+</font></b></td><td><font style="vertical-align: top;">
+<br>Conference dinner at <a href="http://www.bouillon-racine.com/">Bouillon Racine</a>
+</font><br>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<br><br>
+
+<!------------------------------------------------>
+<!-------------- Thursday ------------------------->
+<!----------------------------------------------->
+<p><b><font size="+2">Thursday, september 30th</font></b></p>
+<p><br>
+<table border="0" cellpadding="10" width="100%">
+<tbody>
+<!------- M1 --------->
+<tr><td><b><font size="+1">
+09:00-10:30
+</font></b></td><td><font size="+1">
+Andrew Stuart
+</font><br>
+<font style="italic"><i>
+The Hybrid Monte Carlo Algorithm in High Dimensions
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#stuart">Abstract</a>)
+</i></font> 
+<br>
+</td></tr>
+<!------- M1 --------->
+<tr><td><b><font size="+1">
+10:30-11:00
+</font></b></td><td><font style="vertical-align: top;">
+Coffee break 
+</font>
+</td></tr>
+<!------- A3 --------->
+<tr><td><b><font size="+1">
+11:00-11:45
+</font></b></td><td><font size="+1">
+Kimiya Minoukadeh
+</font>
+<br> 
+<font style="italic"><i>
+Long-time convergence of an Adaptive Biasing Force method: the bi-channel case
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#minoukadeh">Abstract</a>,
+<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/Presentations/Minoukadeh.pdf">Presentation</a>)
+</i></font> 
+<br></td>
+</tr>
+<!------- A3 --------->
+<tr><td><b><font size="+1">
+11:45-12:30
+</font></b></td><td><font size="+1">
+Giovanni Samaey
+</font>
+<br> 
+<font style="italic"><i>
+Individual-based models for bacterial chemotaxis and variance reduced simulations 
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#samaey">Abstract</a>)
+</i></font> 
+<br></td>
+</tr>
+<!------- Lunch --------->
+<tr><td><b><font size="+1">
+12:30-14:00
+</font></b></td>
+<td style="vertical-align: top;">
+Lunch
+<br></td></tr>
+<!------- A1 --------->
+<tr><td><b><font size="+1">
+14:00-15:30
+</font></b></td><td><font size="+1">
+Claude-Alain Pillet
+</font><br>
+<font style="italic"><i>
+Entropy production and fluctuations in (classical) dynamical systems
+(<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/talks.html#pillet">Abstract</a>,
+<a href="http://cermics.enpc.fr/~stoltz/Hybrid2010/Presentations/Pillet.pdf">Presentation</a>)
+</i></font> 
+<br></td>
+</tr>
+<!------- Coffee --------->
+<tr><td><b><font size="+1">
+15:30-16:00
+</font></b></td>
+<td style="vertical-align: top;">
+Final coffee break
+<br></td></tr>
+</tbody>
+</table>
+</p>
+
+<br><br>
+
+
+<!-------------- REGISTRATION ------------------------->
+<span style="text-decoration: underline;">
+Registration:</span>
+<br><br>
+Follow this <a href="http://registration.net-resa.com/site/310">link</a>.
+<br><br>
+
+<!-------------- ACCOMODATION ------------------------->
+<span style="text-decoration: underline;">
+Accomodation and practical information (nearby hotels, reaching the conference center, etc):
+</span>
+<br><br>
+See the official webpage 
+(<a href="http://www.inria.fr/actualites/colloques/cea-edf-inria/2010/molecular-dynamics/index.en.html">link</a>).
+<br><br>
+
+
+<!-------------- ORGANISATEURS ------------------------->
+<span style="text-decoration: underline;">
+Organizing team:</span>
+<ul>
+<li><a href="http://www.irisa.fr/ipso/perso/faou/">
+Erwan Faou</a> (INRIA Rennes)</li>
+<li><a href="http://cermics.enpc.fr/%7Elegoll">
+Frédéric Legoll</a> (UR Navier, Ecole des Ponts)</li>
+<li><a href="http://cermics.enpc.fr/%7Elelievre">
+Tony Lelièvre</a> (CERMICS, Ecole des Ponts)</li>
+<li><a href="http://www-roc.inria.fr/micmac/spip.php?rubrique8">
+Gabriel Stoltz</a> (CERMICS, Ecole des Ponts)</li>
+</ul>
+<br>
+<br>
+
+<!------------ SPONSORS --------->
+<span style="text-decoration: underline;">
+Sponsoring:</span>
+<center>
+<table nosave="" border="0" cellpadding="0" cellspacing="0" cols="2" width="100%">
+<tbody>
+<tr><td style="text-align: center;"><b> 
+This meeting is supported by the <a href="http://www.irisa.fr/ipso/perso/faou/hybrid/hybrid.html
+">ARC Hybrid</a> and the 
+<a href="http://cermics.enpc.fr/~lelievre/MEGAS.html">ANR MEGAS</a></b></td></tr>
+<!-- <tr><td style="text-align: center;">
+<img src="http://www.esf.org/fileadmin/be_user/Communications/Line_logo_small.jpg"
+ style="border: 0px solid ; width: 200px; height: 120px;"></a><br>
+</td></tr>  -->
+<br>
+</tbody>
+</table>
+</center>
+<br>
+<br>
+<br>
+<br>
