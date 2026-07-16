@@ -5,6 +5,7 @@ cover-img: /assets/images/coriolis.jpg
 
 ### Conferences and schools
 
+  - Nonequilibrium stochastic dynamics: Error estimates and variance reduction, plenary talk at <a href="https://scicade.org/plenary-talks#Gabriel-Stoltz">Scicade 2026</a> (Edinburgh, United-Kingdom, July 2026) <a href="{{ '/assets/Conf/stoltz_Scicade_2026.pdf' | relative_url }}" >pdf</a>
   - Autoencoders for free energy computations in molecular dynamics, <a href="https://aichemist.eu/lectures" >AiChemist Paris School</a> (Sanofi, Vitry-sur-Seine, France, March 2026) <a href="{{ '/assets/Conf/stoltz_AIChemist_2026.pdf' | relative_url }}" >pdf</a>
   - Error estimates and variance reduction for transport coefficients, workshop <a href="https://icms.ac.uk/activities/workshop/compass-computational-materials-science-and-mathematics-at-the-particle-and-atomistic-scales/" >"CoMPASs: computational materials science and mathematics at the particle and atomistic scales"</a> (ICMS, Edinburgh, UK, November 2025) <a href="{{ '/assets/Conf/stoltz_ICMS_COMPASS_2025.pdf' | relative_url }}" >pdf</a>
   - Error estimates and variance reduction for transport coefficients, <a href="https://model.uni-mainz.de/scales-conference-2025/" >SCALES Conference 2025</a> (Mainz, Germany, September 2025) <a href="{{ '/assets/Conf/stoltz_SCALES_2025.pdf' | relative_url }}" >pdf</a>
