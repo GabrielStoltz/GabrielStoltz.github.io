@@ -13,6 +13,7 @@ Edited by G. Giacomin, S. Olla, E. Saada, H. Spohn and G. Stoltz, following up o
 
 ### Molecular dynamics &amp; related fields
 
+  - N. Blassel, L. Carillo, S. Darshan, R. Gastaldello, A. Iacobucci, E. Marini, R. Santet, X. Shang, G. Stoltz and U. Vaes, Mathematical analysis and numerical methods for the computation of transport coefficients in molecular dynamics, *arXiv preprint* **2605.10507** (2006) <a href="https://arxiv.org/abs/2605.10507" >pdf</a>
   - F.-Z. Akhyar, W. Zhang, G. Stoltz, C. Schütte, Generative modeling of conditional probability distributions on the level-sets of collective variables, *arXiv preprint* **2512.17374** (2025) <a href="https://arxiv.org/abs/2512.17374" >pdf</a>
   - C. Schönle, D. Carbone, M. Gabrié, T. Lelièvre and G. Stoltz, Efficient Monte-Carlo sampling of metastable systems using non-local collective variable updates, *J. Chem. Phys.* **164**, 154107 (2026) <a href="https://arxiv.org/abs/2512.16812" >pdf</a>
   - N. Blassel, T. Lelièvre and G. Stoltz, Shape optimization of metastable states, *arXiv preprint* **2507.12575** (2025) <a href="https://arxiv.org/abs/2507.12575" >pdf</a>
