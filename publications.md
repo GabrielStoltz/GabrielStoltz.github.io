@@ -97,6 +97,7 @@ Edited by G. Giacomin, S. Olla, E. Saada, H. Spohn and G. Stoltz, following up o
 
 ### Coarse-graining and machine learning
 
+  - T. Pigeon, G. Stoltz and T. Lelièvre, Approximating committor functions: Objective functions and training data sampling, *arXiv preprint* **2607.21425** (2026) <a href="https://arxiv.org/abs/2607.21425" >pdf</a>
   - A. Karoni, R. Rajpal, B. Leimkuhler and G. Stoltz, Adaptive momentum and nonlinear damping for neural network training, *arXiv preprint* **2602.00334** (2026) <a href="https://arxiv.org/abs/2602.00334" >pdf</a>
   - A. Castellano, R. Béjaud, P. Richard, O. Nadeau, C. Duval, G. Geneste, G. Antonius, J. Bouchet, A. Levitt, G. Stoltz, F. Bottin, Machine learning assisted canonical sampling (MLACS), *Computer Physics Communications* **316** 109730 (2025) <a href="https://arxiv.org/abs/2412.15370" >pdf</a>
   - T. Lelièvre, T. Pigeon, G. Stoltz and W. Zhang, Analyzing multimodal probability measures with autoencoders, *J. Phys. Chem. B*** 128**(11) 2607-2631 (2024) <a href="https://arxiv.org/abs/2310.03492" >pdf</a>
