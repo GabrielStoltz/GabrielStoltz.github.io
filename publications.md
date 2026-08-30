@@ -13,7 +13,7 @@ Edited by G. Giacomin, S. Olla, E. Saada, H. Spohn and G. Stoltz, following up o
 
 ### Molecular dynamics &amp; related fields
 
-  - L. Carillo, T. Lelièvre, T. Normand, G. Stoltz and U.~Vaes, The narrow escape problem in arbitrary dimension, *arXiv preprint* **2608.02212** (2026) <a href="https://arxiv.org/abs/2608.02212" >pdf</a>
+  - L. Carillo, T. Lelièvre, T. Normand, G. Stoltz and U. Vaes, The narrow escape problem in arbitrary dimension, *arXiv preprint* **2608.02212** (2026) <a href="https://arxiv.org/abs/2608.02212" >pdf</a>
   - R. Gastaldello, G. A. Pavliotis, G. Stoltz and U. Vaes, On the diffusive-mean field limit of a kinetic weakly interacting particle system, *arXiv preprint* **2607.15896** (2026) <a href="https://arxiv.org/abs/2607.15896" >pdf</a>
   - N. Blassel, L. Carillo, S. Darshan, R. Gastaldello, A. Iacobucci, E. Marini, R. Santet, X. Shang, G. Stoltz and U. Vaes, Mathematical analysis and numerical methods for the computation of transport coefficients in molecular dynamics, *arXiv preprint* **2605.10507** (2026) <a href="https://arxiv.org/abs/2605.10507" >pdf</a>
   - F.-Z. Akhyar, W. Zhang, G. Stoltz, C. Schütte, Generative modeling of conditional probability distributions on the level-sets of collective variables, *arXiv preprint* **2512.17374** (2025) <a href="https://arxiv.org/abs/2512.17374" >pdf</a>
