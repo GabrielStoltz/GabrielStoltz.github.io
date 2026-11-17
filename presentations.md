@@ -97,6 +97,8 @@ cover-img: /assets/images/coriolis.jpg
 
 ### Seminars
 
+  - Nonequilibrium stochastic dynamics: Error estimates and variance reduction, CSML seminar, University of Lancaster (United-Kingdom, November 2026)
+  - A mathematical analysis of autoencoders for (un)supervised dimensionality reduction, MARS seminar, University of Lancaster (United-Kingdom, November 2026)
   - Error estimates and variance reduction for transport coefficients, LAMME seminar, University of Evry (Evry, France, Feburary 2026) <a href="{{ '/assets/Conf/stoltz_Evry_seminaire_2026.pdf' | relative_url }}" >pdf</a>
   - Optimizing the diffusion for sampling with overdamped Langevin dynamics, Quantitative Methods in Finance seminar, University of Birmingham (Birmingham, United-Kingdom, October 2024) <a href="{{ '/assets/Conf/Stoltz_OptimalDiffusion_Birmingham_2024.pdf' | relative_url }}" >pdf</a>
   - Importance sampling with free energies and autoencoders for multimodal probability distributions, Mostly Monte Carlo seminar (Paris, France, May 2024) <a href="{{ '/assets/Conf/stoltz_MostlyMC_2024.pdf' | relative_url }}" >pdf</a>
